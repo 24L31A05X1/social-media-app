@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Social Media App</title>
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body class="home-body">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <h1>SocialApp ✨</h1>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </nav>
+
+    <!-- CREATE POST -->
+
+    <div class="post-box">
+
+        <textarea
+            id="caption"
+            placeholder="What's on your mind?"></textarea>
+
+        <input
+            type="text"
+            id="image"
+            placeholder="Paste Image URL">
+
+        <button onclick="createPost()">
+            Create Post
+        </button>
+
+    </div>
+
+    <!-- POSTS -->
+
+    <div id="posts">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

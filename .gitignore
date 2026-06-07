@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Mock Database & Runtime Files
+server/mock_users.json
+C:\Users\RAGHAV\.gemini\antigravity-ide\scratch\mongo_startup.log
+C:\Users\RAGHAV\.gemini\antigravity-ide\scratch\mongo_error.log
+C:\Users\RAGHAV\.gemini\antigravity-ide\scratch\mongod_custom.log
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
